@@ -1,18 +1,17 @@
-require('config')
+require("config")
 
-require('nvim-web-devicons')
+require("nvim_web_devicons")
 
-require('mason')
+require("mason-packages")
 
-require('snippets')
+require("snippets")
 
-require('nvim-treesitter')
+require("lua_line")
 
-require('lualine')
+require("tele_scope")
 
-require('telescope')
+require("tree_sitter")
 
-require('nvim-cmp')
-require('lspconfig')
-
-
+require("cmp-nvim")
+require("neo_dev")
+require("lsp_config")

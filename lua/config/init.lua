@@ -1,4 +1,4 @@
-require('config.vim-plug')
-require('config.luasnip')
-require('config.tagbar')
-require('config.nerdcommenter')
+require("config.vim-plug")
+require("config.luasnip")
+require("config.tagbar")
+require("config.nerdcommenter")

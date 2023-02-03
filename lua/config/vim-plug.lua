@@ -10,9 +10,13 @@ vim.call('plug#begin')
     Plug 'hrsh7th/cmp-cmdline'
     Plug 'hrsh7th/nvim-cmp'
     Plug 'saadparwaiz1/cmp_luasnip'
+    Plug 'hrsh7th/cmp-vsnip'
+
 
     -- Snip.. snip??
-    Plug ('L3MON4D3/LuaSnip', {tag = 'v<CurrentMajor>.*', ['do'] ='make install_jsregexp'})
+    Plug ('L3MON4D3/LuaSnip', {['do'] ='make install_jsregexp'})
+    Plug 'hrsh7th/vim-vsnip'
+    Plug 'hrsh7th/vim-vsnip-integ'
     -- Highlighting and stuff
     Plug ('nvim-treesitter/nvim-treesitter', {['do'] = vim.fn['TSUpdate']})
 
@@ -25,6 +29,7 @@ vim.call('plug#begin')
 
     -- Provides a simple package manager, for example LSP's (replaces nvim-lsp-installer)
     Plug 'williamboman/mason.nvim'
+    Plug 'williamboman/mason-lspconfig.nvim'
 
     -- Nerdy comments B)
     Plug 'preservim/nerdcommenter'
@@ -42,4 +47,6 @@ vim.call('plug#begin')
     Plug 'dense-analysis/ale'
 
     Plug 'romgrk/barbar.nvim'
+
+    Plug 'folke/neodev.nvim'
 vim.call('plug#end')
