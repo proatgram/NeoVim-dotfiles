@@ -38,6 +38,7 @@ vim.call('plug#begin')
     -- Provides a simple package manager, for example LSP's (replaces nvim-lsp-installer)
     Plug 'williamboman/mason.nvim'
     Plug 'williamboman/mason-lspconfig.nvim'
+    Plug 'jay-babu/mason-nvim-dap.nvim'
 
     -- Nerdy comments B)
     Plug 'preservim/nerdcommenter'
@@ -72,4 +73,10 @@ vim.call('plug#begin')
     -- Evemm more Git stuff
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-rhubarb'
+
+    Plug 'nvim-tree/nvim-tree.lua'
+
+    Plug ('akinsho/toggleterm.nvim', {tag = '*'})
+    
+    Plug 'mfussenegger/nvim-dap'
 vim.call('plug#end')
