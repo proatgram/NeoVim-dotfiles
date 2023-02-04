@@ -1,6 +1,7 @@
 local Plug = vim.fn['plug#']
 
 vim.call('plug#begin')
+    -- Simple thing for NeoVim LSP
     Plug 'neovim/nvim-lspconfig'
 
     -- Completion plugin
@@ -12,17 +13,24 @@ vim.call('plug#begin')
     Plug 'saadparwaiz1/cmp_luasnip'
     Plug 'hrsh7th/cmp-vsnip'
 
+    -- Autopairs stuff like () {} [] "" ''
+    Plug 'windwp/nvim-autopairs'
+
+    -- Snippet templates for LuaSnip``
+    Plug 'rafamadriz/friendly-snippets'
 
     -- Snip.. snip??
     Plug ('L3MON4D3/LuaSnip', {['do'] ='make install_jsregexp'})
     Plug 'hrsh7th/vim-vsnip'
     Plug 'hrsh7th/vim-vsnip-integ'
+
     -- Highlighting and stuff
     Plug ('nvim-treesitter/nvim-treesitter', {['do'] = vim.fn['TSUpdate']})
 
     -- Required for telescope
     Plug 'nvim-lua/plenary.nvim'
 
+    -- A fast file finder
     Plug 'nvim-telescope/telescope.nvim'
 
     Plug 'nvim-tree/nvim-web-devicons'
@@ -46,7 +54,22 @@ vim.call('plug#begin')
     -- Semantic highlighting let's go??
     Plug 'dense-analysis/ale'
 
+    -- Bar bar hehe
     Plug 'romgrk/barbar.nvim'
 
+    -- For NeoVim Lua autocompletion and LSP info
     Plug 'folke/neodev.nvim'
+
+    -- Colors
+    Plug ('catppuccin/nvim', { as = 'catppuccin' })
+
+    -- Git info and stuff B3
+    Plug 'airblade/vim-gitgutter'
+
+    -- More Git stuff
+    Plug 'jreybert/vimagit'
+
+    -- Evemm more Git stuff
+    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-rhubarb'
 vim.call('plug#end')
