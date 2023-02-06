@@ -39,6 +39,7 @@ vim.call('plug#begin')
     Plug 'williamboman/mason.nvim'
     Plug 'williamboman/mason-lspconfig.nvim'
     Plug 'jay-babu/mason-nvim-dap.nvim'
+    Plug 'rcarriga/nvim-dap-ui'
 
     -- Nerdy comments B)
     Plug 'preservim/nerdcommenter'
@@ -77,6 +78,11 @@ vim.call('plug#begin')
     Plug 'nvim-tree/nvim-tree.lua'
 
     Plug ('akinsho/toggleterm.nvim', {tag = '*'})
-    
+
     Plug 'mfussenegger/nvim-dap'
+
+    Plug ('theHamsta/nvim_rocks', {['do'] = 'pip3 install --user hererocks && python3 -mhererocks . -j2.1.0-beta3 -r3.0.0 && cp nvim_rocks.lua lua'})
+
+    Plug 'MunifTanjim/nui.nvim'
+
 vim.call('plug#end')
