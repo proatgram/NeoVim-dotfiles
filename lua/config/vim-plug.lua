@@ -54,7 +54,7 @@ vim.call('plug#begin')
     Plug 'nvim-lualine/lualine.nvim'
 
     -- Semantic highlighting let's go??
-    Plug 'dense-analysis/ale'
+    -- Plug 'dense-analysis/ale'
 
     -- Bar bar hehe
     Plug 'romgrk/barbar.nvim'
@@ -64,6 +64,7 @@ vim.call('plug#begin')
 
     -- Colors
     Plug ('catppuccin/nvim', { as = 'catppuccin' })
+    Plug ('folke/tokyonight.nvim', { branch = 'main' })
 
     -- Git info and stuff B3
     Plug 'airblade/vim-gitgutter'
