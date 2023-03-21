@@ -4,6 +4,9 @@ vim.call('plug#begin')
     -- Simple thing for NeoVim LSP
     Plug 'neovim/nvim-lspconfig'
 
+    -- Echoes diagnostic messages from LSP
+    Plug 'seblj/nvim-echo-diagnostics'
+
     -- Completion plugin
     Plug 'hrsh7th/cmp-nvim-lsp'
     Plug 'hrsh7th/cmp-buffer'
@@ -53,9 +56,6 @@ vim.call('plug#begin')
     -- Nice line at the bottom for pertyness :)
     Plug 'nvim-lualine/lualine.nvim'
 
-    -- Semantic highlighting let's go??
-    -- Plug 'dense-analysis/ale'
-
     -- Bar bar hehe
     Plug 'romgrk/barbar.nvim'
 
@@ -82,8 +82,8 @@ vim.call('plug#begin')
 
     Plug 'mfussenegger/nvim-dap'
 
-    Plug ('theHamsta/nvim_rocks', {['do'] = 'pip3 install --user hererocks && python3 -mhererocks . -j2.1.0-beta3 -r3.0.0 && cp nvim_rocks.lua lua'})
-
     Plug 'MunifTanjim/nui.nvim'
+
+    Plug 'folke/trouble.nvim'
 
 vim.call('plug#end')
