@@ -15,6 +15,7 @@ vim.call('plug#begin')
     Plug 'hrsh7th/nvim-cmp'
     Plug 'saadparwaiz1/cmp_luasnip'
     Plug 'hrsh7th/cmp-vsnip'
+    Plug 'hrsh7th/cmp-nvim-lsp-signature-help'
 
     -- Autopairs stuff like () {} [] "" ''
     Plug 'windwp/nvim-autopairs'
