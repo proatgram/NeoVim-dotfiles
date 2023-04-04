@@ -87,4 +87,7 @@ vim.call('plug#begin')
 
     Plug 'folke/trouble.nvim'
 
+    -- PlatformIO support
+    Plug 'normen/vim-pio'
+
 vim.call('plug#end')
