@@ -90,4 +90,7 @@ vim.call('plug#begin')
     -- PlatformIO support
     Plug 'normen/vim-pio'
 
+    -- Markdown previews
+    Plug ('iamcco/markdown-preview.nvim', { ['do'] = "mkdp#util#install()", ['for'] = {'markdown', 'vim-plug'}})
+
 vim.call('plug#end')
