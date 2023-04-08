@@ -93,4 +93,7 @@ vim.call('plug#begin')
     -- Markdown previews
     Plug ('iamcco/markdown-preview.nvim', { ['do'] = "mkdp#util#install()", ['for'] = {'markdown', 'vim-plug'}})
 
+    -- Discord Presence Integration
+    Plug 'andweeb/presence.nvim'
+
 vim.call('plug#end')
