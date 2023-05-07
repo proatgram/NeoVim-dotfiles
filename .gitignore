@@ -1,0 +1,2 @@
+# For some plugin that generates this in *any* lua project
+*.luarc.json
