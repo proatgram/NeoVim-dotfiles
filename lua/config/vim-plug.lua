@@ -98,5 +98,13 @@ vim.call('plug#begin')
 
     -- rayso.nvim Screenshots from Ray.so
     Plug 'TobinPalmer/rayso.nvim'
+    -- A noice new UI
+    Plug 'folke/noice.nvim'
+
+    -- Option dependancy of noice.nvim
+    Plug 'rcarriga/nvim-notify'
+
+    -- GitHub integration
+    Plug 'pwntester/octo.nvim'
 
 vim.call('plug#end')
