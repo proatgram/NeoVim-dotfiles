@@ -96,4 +96,7 @@ vim.call('plug#begin')
     -- Discord Presence Integration
     Plug 'andweeb/presence.nvim'
 
+    -- rayso.nvim Screenshots from Ray.so
+    Plug 'TobinPalmer/rayso.nvim'
+
 vim.call('plug#end')
