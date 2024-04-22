@@ -44,6 +44,7 @@ vim.call('plug#begin')
     Plug 'williamboman/mason-lspconfig.nvim'
     Plug 'jay-babu/mason-nvim-dap.nvim'
     Plug 'rcarriga/nvim-dap-ui'
+    Plug 'nvim-neotest/nvim-nio'
 
     -- Nerdy comments B)
     Plug 'preservim/nerdcommenter'
